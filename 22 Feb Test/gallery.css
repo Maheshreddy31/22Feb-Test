@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+a:hover {
+    color: red;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    position: relative;
+    height: 100vh;
+}
+
+.color-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.color-button:hover {
+    background-color: darkblue;
+}
+
+/* Question 7 */
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scale-button {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.scale-button:hover {
+    transform: scale(1.2);
+}
+
